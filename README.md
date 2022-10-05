@@ -3,7 +3,7 @@
 
 To Set Up Your App 
 
-Download and open that directory using terminal and run
+Download and open that directory using terminal and run<br>
 *sudo php artisan serve --host=0.0.0.0 --port=443*
 
 Send me ip address if you changed the phone or sim card, then open your app
