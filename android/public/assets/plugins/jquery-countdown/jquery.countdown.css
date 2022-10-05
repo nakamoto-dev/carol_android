@@ -1,0 +1,85 @@
+/* jQuery Countdown styles 2.0.0. */
+#launch_date{
+	    margin: 0px auto 0px auto;
+}
+.countdown-rtl {
+	direction: rtl;
+}
+.countdown-holding span {
+	color: #888;
+}
+.countdown-row {
+	clear: both;
+	width: 100%;
+	padding: 0px 2px;
+	text-align: center;
+}
+.countdown li{
+	display:inline-block;
+}
+.countdown .number{
+	font-size: 1.83rem;
+	font-weight: bold;
+	padding: 12px 25px;
+	text-align:center;
+	margin:0 auto;
+	position:relative;
+	overflow:hidden;
+	z-index:1;
+	border:2px solid rgba(0, 0, 0, 0.1);
+	box-shadow:  0 8px 16px 0 rgba(162, 169, 204,.24);
+	color:#fff;
+	border-radius:4px;
+	background:#29327f;
+	display:block;
+}
+.countdown .time{
+	font-size: 16px;
+    padding-top: 10px;
+    font-weight: 400;
+    margin: 0;
+	text-transform:uppercase;
+}
+.under-construction h2{
+	text-transform: uppercase;
+    font-size: 2.5rem;
+}
+.under-construction h4{
+	color:#8b96aa;
+	font-weight:400;
+	font-size:14px;
+	line-height:1.5;
+}
+@media (max-width:991px){
+	.countdown li{
+		margin:20px 10px 10px 10px;
+	}
+	.is-countdown{
+		margin-top:20px;
+	}
+}
+@media (min-width:992px){
+	.countdown li{
+		margin:10px 10px 5px 10px;
+	}
+}
+.comming-soon  .countdown .number{
+	box-shadow:none;
+	background:rgba(255,255,255,0.1);
+	border:0;
+}
+.comming-soon .countdown .time{
+	color:#fff;
+	font-weight:400;
+	text-transform:uppercase;
+}
+.comming-soon .btn-inner-icon{
+    border: 2px solid #6a7591;
+    border-radius: 50px;
+    color: #c0c6d4;
+	margin:10px;
+	width:40px;
+	height:40px;
+	line-height:40px;
+	display:inline-block;
+}
